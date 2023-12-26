@@ -103,6 +103,21 @@ export default function Component() {
 </HStack>
 </Button>
 </Link>
+  <Link as={NextLink} href={`https://github.com/iGreenHeart/reflex_greenheart`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
+  <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#f2fff1", "backgroundColor": "#474973", "whiteSpace": "normal", "textAling": "start", "_hover": {"backgroundColor": "#4779c4"}}}>
+  <HStack sx={{"width": "100%"}}>
+  <ChakraImage alt={`Web Reflex`} src={`icons/github.svg`} sx={{"width": "2em", "height": "2em", "margin": "0.8em"}}/>
+  <VStack alignItems={`start`} sx={{"margin": "0px !important", "paddingY": "0.5em", "paddingRight": "0.5em"}}>
+  <Text sx={{"fontFamily": "Poppins", "fontWeight": "700", "fontSize": "1.5em", "color": "#f2fff1"}}>
+  {`Web Reflex`}
+</Text>
+  <Text sx={{"fontFamily": "Poppins", "fontWeight": "200", "fontSize": "1em", "color": "#E3E3E3"}}>
+  {`Mi página web hecha con Reflex y python puro`}
+</Text>
+</VStack>
+</HStack>
+</Button>
+</Link>
   <Heading size={`lg`} sx={{"width": "100%", "paddingTop": "1em", "size": "lg", "color": "#f2fff1", "fontFamily": "Poppins", "fontWeight": "700"}}>
   {`Contacto`}
 </Heading>

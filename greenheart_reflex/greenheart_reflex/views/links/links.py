@@ -13,6 +13,11 @@ def links() -> rx.Component:
             "Proyecto Final de Sistemas de Procesamiento de Datos",
             "icons/unsamlogo.png",
             const.LINK_TYPING_GAME),
+        link_button(
+            "Web Reflex",
+            "Mi página web hecha con Reflex y python puro",
+            "icons/github.svg",
+            const.LINK_REFLEX),
         title("Contacto"),
         link_button(
             "Email",
