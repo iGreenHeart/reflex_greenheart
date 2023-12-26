@@ -1,0 +1,6 @@
+LINK_GITHUB = "https://github.com/iGreenHeart"
+LINK_LINKEDIN = "https://www.linkedin.com/in/bogado-juan-cruz-0744b8246/"
+LINK_TYPING_GAME = "https://github.com/iGreenHeart/typing-game-asm"
+LINK_KETOIVY = "https://ketoivy.mercadoshops.com.ar"
+LINK_IG = "https://www.instagram.com/juanchidsm/?hl=es"
+LINK_TPI = "https://www.unsam.edu.ar/escuelas/ecyt/107/ciencia/programacion-informatica"
